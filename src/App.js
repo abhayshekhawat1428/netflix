@@ -12,8 +12,7 @@ const  App = () => {
     <Router>
       <Route exact path ={ROUTES.HOME}>
        <Home/>
-      </Route>
-
+      </Route> 
       <Route exact path ={ROUTES.SIGN_UP}>
        <Signup/>
       </Route>
